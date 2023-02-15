@@ -114,11 +114,6 @@ li {
   width: 20px;
   margin-left: 30px;
 }
-.hero .img {
-  padding-left: 90px;
-  padding-top: 30px;
-  padding-bottom: 114px;
-}
 
 .hero-grit {
   display: grid;
@@ -133,6 +128,11 @@ main h3 {
   text-align: center;
   color: #22343d;
   padding-bottom: 57px;
+}
+.hero .img {
+  padding-left: 90px;
+  padding-top: 30px;
+  padding-bottom: 114px;
 }
 
 .main-top {
