@@ -42,16 +42,7 @@ a {
 li {
   list-style: none;
 }
-.botton1 {
-  border-radius: 4px;
-  border: 1px solid #bcd0e5;
-  padding: 10px 25px;
-  color: #173a56;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  margin-right: 19px;
-}
+
 
 .vector{
     padding-left: 28px;
@@ -61,4 +52,14 @@ li {
   background-color: $color-2;
   color: white;
   border-radius: 4px;
+}
+.botton1 {
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  padding: 10px 25px;
+  color: #173a56;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 19px;
 }
