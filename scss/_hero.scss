@@ -1,0 +1,54 @@
+$color-1: #22343d;
+$color-2: #02897a;
+
+.hero {
+  h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: $color-1;
+    width: 342px;
+    padding: 145px 0 18px 0;
+  }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    color: $color-1;
+    width: 375px;
+    padding-bottom: 60px;
+  }
+  .botton-hero {
+    color: white;
+    background-color: $color-2;
+    padding: 10px 41px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 4px;
+
+  }
+  .botton-hero-s {
+  width: 132px;
+  padding: 10px 0 0 8px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration-line: underline;
+
+  color: #02897a;
+}
+
+    .icon {
+    width: 20px;
+    margin-left: 30px
+    
+}
+    .img{
+        padding-left: 90px;
+        padding-top: 30px;
+        padding-bottom: 114px;
+
+    }
+}
+.hero-grit{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+

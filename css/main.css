@@ -1,0 +1,282 @@
+body {
+  font-family: "Poppins";
+}
+
+.container {
+  width: 1100px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 23px 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+}
+
+.logo-pedding {
+  padding-right: 16px;
+  margin-top: -13px;
+}
+
+.navbar ul {
+  gap: 30px;
+}
+.navbar ul a {
+  color: #22343d;
+}
+.navbar ul a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.botton1 {
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  padding: 10px 25px;
+  color: #173a56;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 19px;
+}
+
+.botton2 {
+  padding: 10px 20px;
+  background-color: #02897a;
+  color: white;
+  border-radius: 4px;
+}
+
+.vector {
+  padding-left: 28px;
+}
+
+.hero h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #22343d;
+  width: 342px;
+  padding: 145px 0 18px 0;
+}
+.hero p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #22343d;
+  width: 375px;
+  padding-bottom: 60px;
+}
+.hero .botton-hero {
+  color: white;
+  background-color: #02897a;
+  padding: 10px 41px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.hero .botton-hero-s {
+  width: 132px;
+  padding: 10px 0 0 8px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration-line: underline;
+  color: #02897a;
+}
+.hero .icon {
+  width: 20px;
+  margin-left: 30px;
+}
+.hero .img {
+  padding-left: 90px;
+  padding-top: 30px;
+  padding-bottom: 114px;
+}
+
+.hero-grit {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0 auto;
+  width: 440px;
+  text-align: center;
+  color: #22343d;
+  padding-bottom: 57px;
+}
+
+.main-top {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 70px 0;
+  gap: 50px;
+}
+.main-top h4 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343d;
+  padding: 0 0 20px 0;
+}
+.main-top p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343d;
+  width: 170px;
+}
+
+.main-hero-a {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 104px;
+}
+.main-hero-a a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #02897a;
+  padding: 15px 34px;
+  border-radius: 4px;
+}
+
+.main-h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343d;
+  padding-top: 8px;
+  padding-bottom: 90px;
+}
+
+.main-p-stil {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
+  padding: 25px 0 12px 0;
+}
+
+.main-p {
+  width: 400px;
+}
+
+.Effortless-stil {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
+  padding-top: 120px;
+}
+
+.main-grit {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 153px;
+  gap: 150px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343d;
+  padding-bottom: 23px;
+}
+
+.grup {
+  padding: 38px 0 0 0;
+}
+.grup p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343d;
+  width: 330px;
+  padding-left: 30px;
+}
+.grup img {
+  padding-top: 10px;
+}
+
+.comp {
+  padding-top: 46px;
+}
+
+.add {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343d;
+  padding-top: 8px;
+  padding-bottom: 30px;
+}
+
+.name .name-h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  margin: 0 auto;
+  padding-bottom: 16px;
+}
+.name p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  width: 442px;
+  margin: 0 auto;
+  text-align: center;
+  color: #22343d;
+}
+.name .grup-sms {
+  padding: 24px 0 104px 0;
+}
+
+.padding-24 {
+  padding-right: 24px;
+}
+
+.padding-16 {
+  padding-left: 16px;
+}
+
+/*# sourceMappingURL=main.css.map */

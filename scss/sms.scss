@@ -1,0 +1,37 @@
+$color-1: #22343d;
+$color-2: #02897a;
+
+.name {
+    // background-image: url(../img/bg2.svg);
+
+  .name-h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: $color-1;
+    margin: 0 auto;
+    padding-bottom: 16px;
+  }
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+    width: 442px;
+    margin: 0 auto;
+    text-align: center;
+
+    color: $color-1;
+  }
+  .grup-sms {
+    padding: 24px 0 104px 0;
+  }
+}
+.padding-24{
+  padding-right:24px ;
+}
+.padding-16{
+  padding-left:16px ;
+}

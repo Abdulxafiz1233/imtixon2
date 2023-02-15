@@ -1,0 +1,120 @@
+$color-1: #22343d;
+$color-2: #02897a;
+
+main {
+  h3 {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0 auto;
+    width: 440px;
+    text-align: center;
+    color: $color-1;
+    padding-bottom: 57px;
+  }
+}
+.main-top {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 70px 0;
+  gap: 50px;
+  h4 {
+    font-weight: 600;
+    font-size: 22px;
+    color: $color-1;
+    padding: 0 0 20px 0;
+  }
+  p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $color-1;
+    width: 170px;
+  }
+}
+.main-hero-a {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 104px;
+
+  a {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: $color-2;
+    padding: 15px 34px;
+    border-radius: 4px;
+  }
+}
+.main-h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: $color-1;
+  padding-top: 8px;
+  padding-bottom: 90px;
+}
+.main-p-stil {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: $color-1;
+  padding: 25px 0 12px 0;
+}
+.main-p {
+  width: 400px;
+}
+.Effortless-stil {
+  font-weight: 600;
+  font-size: 16px;
+  color: $color-1;
+  padding-top: 120px;
+}
+.main-grit {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 153px;
+  gap: 150px;
+}
+.text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: $color-1;
+  padding-bottom: 23px;
+}
+.grup {
+  padding: 38px 0 0 0;
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $color-1;
+    width: 330px;
+    padding-left: 30px;
+  }
+  img {
+    padding-top: 10px;
+  }
+}
+.comp {
+  padding-top: 46px;
+}
+.add {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: $color-1;
+  padding-top: 8px;
+  padding-bottom: 30px;
+}
+.name{
+  
+}
